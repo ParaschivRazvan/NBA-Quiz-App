@@ -1,0 +1,484 @@
+<ScrollView 
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF9A9A"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="32dp"
+        android:text="@string/lets_go"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question1"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+        <RadioGroup
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radio1">
+
+            <RadioButton
+                android:id="@+id/scottie_pippen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Scottie_Pippen"
+                android:onClick="questionOne"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/dennis_rodman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Dennis_Rodman"
+                android:onClick="questionOne"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/steve_kerr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Steve_Kerr"
+                android:onClick="questionOne"
+                android:layout_marginLeft="10dp"/>
+            <RadioButton
+                android:id="@+id/michael_jordan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Michael_Jordan"
+                android:onClick="questionOne"
+                android:layout_marginLeft="10dp"/>
+        </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question2"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <RadioGroup
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radio2">
+
+            <RadioButton
+                android:id="@+id/lebron_james"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Lebron_James"
+                android:onClick="questionTwo"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/brandon_knight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Brandon_Knight"
+                android:onClick="questionTwo"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/steven_adams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Steve_Adams"
+                android:onClick="questionTwo"
+                android:layout_marginLeft="10dp"/>
+            <RadioButton
+                android:id="@+id/ben_immons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ben_Simmons"
+                android:onClick="questionTwo"
+                android:layout_marginLeft="10dp"/>
+
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question3"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox3a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Russel_Westbrook" />
+
+        <CheckBox android:id="@+id/checkbox3b"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Kevin_Durant" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/checkbox3c"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Paul_George" />
+
+        <CheckBox android:id="@+id/checkbox3d"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Steve_Adams" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question4"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edit_text_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question5"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <RadioGroup
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radio5">
+
+            <RadioButton
+                android:id="@+id/dirk_nowitzki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Dirk_Nowitzki"
+                android:onClick="questionFive"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/kareem_abdul_jabar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Kareem_Abdul_Jabar"
+                android:onClick="questionFive"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/lebron_james_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Lebron_James"
+                android:onClick="questionFive"
+                android:layout_marginLeft="10dp"/>
+            <RadioButton
+                android:id="@+id/wilt_chamberlain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Wilt_Chamberlain"
+                android:onClick="questionFive"
+                android:layout_marginLeft="10dp"/>
+
+        </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question6"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox6a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Miami_Heat" />
+
+        <CheckBox android:id="@+id/checkbox6b"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Cleaveland_Cavaliers" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/checkbox6c"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/LA_Lakers" />
+
+        <CheckBox android:id="@+id/checkbox6d"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/LA_Clippers" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question7"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <RadioGroup
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radio7">
+
+            <RadioButton
+                android:id="@+id/james_harden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/James_Harden"
+                android:onClick="questionSeven"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/russel_westbrook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Russel_Westbrook"
+                android:onClick="questionSeven"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/stephan_curry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Stephan_Curry"
+                android:onClick="questionSeven"
+                android:layout_marginLeft="10dp"/>
+            <RadioButton
+                android:id="@+id/anthony_davis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Anthony_Davis"
+                android:onClick="questionSeven"
+                android:layout_marginLeft="10dp"/>
+
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question8"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <RadioGroup
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radio8">
+
+            <RadioButton
+                android:id="@+id/joel_embiid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Joel_Embiid"
+                android:onClick="questionEight"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/ben_simmons_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ben_Simmons"
+                android:onClick="questionEight"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioButton
+                android:id="@+id/donovan_mitchell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Donovan_Mitchell"
+                android:onClick="questionEight"
+                android:layout_marginLeft="10dp"/>
+            <RadioButton
+                android:id="@+id/kyle_kuzma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Kyle_Kuzma"
+                android:onClick="questionEight"
+                android:layout_marginLeft="10dp"/>
+
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question9"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edit_text_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/question10"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox10a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Dwayne_Wade" />
+
+        <CheckBox android:id="@+id/checkbox10b"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Steve_Nash" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/checkbox10c"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Carmelo_Anthony" />
+
+        <CheckBox android:id="@+id/checkbox10d"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/Kevin_Durant" />
+
+
+    </LinearLayout>
+
+       <CheckBox android:id="@+id/checkboxShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/share_score"
+        android:textSize="20dp"/>
+
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="32dp"
+        android:text="@string/done"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="done"
+        />
+
+    </LinearLayout>
+
+</ScrollView>
