@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">NBA Quiz App</string>
+    <string name="lets_go">Let\'s go</string>
+    <string name="question1">1.Which player played for the Chicago Bulls in the 90\'s era and had the number 23 on his jersey?</string>
+    <string name="Scottie_Pippen" translatable="false">Scottie Pippen</string>
+    <string name="Dennis_Rodman" translatable="false">Dennis Rodman</string>
+    <string name="Steve_Kerr" translatable="false">Steve Kerr</string>
+    <string name="Michael_Jordan" translatable="false">Michael Jordan</string>
+    <string name="question2">2.Who is considered to be the best player in the world at the moment?</string>
+    <string name="Lebron_James" translatable="false">Lebron James</string>
+    <string name="Brandon_Knight" translatable="false">Brandon Knight</string>
+    <string name="Steve_Adams" translatable="false">Steve Adams</string>
+    <string name="Ben_Simmons" translatable="false">Ben Simmons</string>
+    <string name="question3">3.Select 3 players who are part of the OKC team this year(2017).</string>
+    <string name="Russel_Westbrook" translatable="false">Russel Westbrook</string>
+    <string name="Kevin_Durant" translatable="false">Kevin Durant</string>
+    <string name="Paul_George" translatable="false">Paul George</string>
+    <string name="question4">4.How many championships has Kobe Bryant won?</string>
+    <string name="question5">5.Who ranks on the first place on the NBA all time scoring list?</string>
+    <string name="Dirk_Nowitzki" translatable="false">Dirk Nowitzki</string>
+    <string name="Kareem_Abdul_Jabar" translatable="false">Kareem Abdul Jabar</string>
+    <string name="Wilt_Chamberlain" translatable="false">Wilt Chamberlain</string>
+    <string name="question6">6.Pick the teams in which Shaq played through out his career.</string>
+    <string name="Miami_Heat" translatable="false">Miami Heat</string>
+    <string name="Cleaveland_Cavaliers" translatable="false">Cleveland Cavaliers</string>
+    <string name="LA_Lakers" translatable="false">LA Lakers</string>
+    <string name="LA_Clippers" translatable="false">LA Clippers</string>
+    <string name="question7">7.Who won the MVP award in the 2016/2017 season?</string>
+    <string name="James_Harden" translatable="false">James Harden</string>
+    <string name="Stephan_Curry" translatable="false">Stephan Curry</string>
+    <string name="Anthony_Davis" translatable="false">Anthony Davis</string>
+    <string name="question8">8.Who was the ROY in 2017/2018 season?</string>
+    <string name="Joel_Embiid" translatable="false">Joel Embiid</string>
+    <string name="Donovan_Mitchell" translatable="false">Donovan Mitchell</string>
+    <string name="Kyle_Kuzma" translatable="false">Kyle Kuzma</string>
+    <string name="question9">9.In what year did the Dallas Mavericks defeat Miami Heat in the championship finals?</string>
+    <string name="question10">10.Pick the players who were drafted in the 2003 year.</string>
+    <string name="Dwayne_Wade" translatable="false">Dwayne Wade</string>
+    <string name="Steve_Nash" translatable="false">Steve Nash</string>
+    <string name="Carmelo_Anthony" translatable="false">Carmelo Anthony</string>
+    <string name="share_score">Share Score</string>
+    <string name="done">done</string>
+</resources>
